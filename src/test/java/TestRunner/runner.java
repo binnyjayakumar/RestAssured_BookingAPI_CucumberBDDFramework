@@ -10,7 +10,9 @@ public class runner
 			glue = {"BookingAPI_Stepdefinitions"},
 			//tags ="@smoke",
 			monochrome = true,
-			plugin = "json:target/cucumber-reports/CucumberTestReport.json")
+			plugin = "pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+  				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"html:target/HtmlReport/htmlreport.html")
 
 	public class TestRunner extends AbstractTestNGCucumberTests  {
 
