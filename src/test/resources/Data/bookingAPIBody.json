@@ -1,0 +1,54 @@
+{
+	"postBooking1": {
+		"firstname": "Sam",
+		"lastname": "Daniel",
+		"totalprice": 1000,
+		"depositpaid": true,
+		"bookingdates": {
+			"checkin": "2018-01-01",
+			"checkout": "2019-01-01"
+		},
+		"additionalneeds": "Tea"
+	},
+	"postBooking2": {
+		"firstname": "Robert",
+		"lastname": "Doe",
+		"totalprice": 3000,
+		"depositpaid": true,
+		"bookingdates": {
+			"checkin": "2018-01-01",
+			"checkout": "2019-01-01"
+		},
+		"additionalneeds": "Coffee"
+	},
+	"putBooking1": {
+		"firstname": "Clara",
+		"lastname": "Kim",
+		"totalprice": 6000,
+		"depositpaid": true,
+		"bookingdates": {
+			"checkin": "2021-11-10",
+			"checkout": "2021-11-20"
+		},
+		"additionalneeds": "Super Tea"
+	},
+	"putBooking2": {
+		"firstname": "Bruno",
+		"lastname": "Watts",
+		"totalprice": 35000,
+		"depositpaid": false,
+		"bookingdates": {
+			"checkin": "2021-09-10",
+			"checkout": "2021-10-20"
+		},
+		"additionalneeds": "Super Coffee"
+	},
+	"patchBooking1": {
+		"firstname": "Ben",
+		"lastname": "John"
+	},
+	"patchBooking2": {
+		"firstname": "Duke",
+		"lastname": "steve"
+	}
+}

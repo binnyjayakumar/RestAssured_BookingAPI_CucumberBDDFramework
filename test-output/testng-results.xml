@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-23T23:54:13 EDT" name="Suite" finished-at="2024-03-23T23:54:15 EDT" duration-ms="2340">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-23T23:54:13 EDT" name="Test" finished-at="2024-03-23T23:54:15 EDT" duration-ms="2340">
+      <class name="TestRunner.runner$TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:13 EDT" name="setUpClass" finished-at="2024-03-23T23:54:13 EDT" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e7cfd49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:14 EDT" duration-ms="1302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create an authentication token"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:14 EDT" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Booking API GET test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:14 EDT" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new booking using JSON data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:14 EDT" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create new booking using JSON data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:15 EDT" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get booking details of a bookingId"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:15 EDT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a booking using JSON data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:15 EDT" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a booking using JSON data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:15 EDT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update booking details using JSON data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:15 EDT" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update booking details using JSON data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-23T23:54:15 EDT" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To delete a booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Booking api with rest assured and cucumber BDD framework"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.runner$TestRunner@543295b0]" started-at="2024-03-23T23:54:15 EDT" name="tearDownClass" finished-at="2024-03-23T23:54:15 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.runner$TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
